@@ -1,3 +1,7 @@
+<p align="right">
+  <a href="README.en.md">🇺🇸 Versão em Inglês</a>
+</p>
+
 # 🏆 OBI Nível 2 - Soluções
 
 <p align="center">
@@ -18,15 +22,16 @@
 
 ## 📚 Sumário
 
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Questões e Exemplos](#-questões-e-exemplos)
-- [Destaques Técnicos](#-destaques-técnicos)
-- [Como Executar](#-como-executar)
-- [Licença](#-licença)
-- [Autor](#-autor)
-- [Sugestões de Melhorias Futuras](#-sugestões-de-melhorias-futuras)
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Questões e Exemplos](#questões-e-exemplos)
+- [Destaques Técnicos](#destaques-técnicos)
+- [Como Executar](#como-executar)
+- [Testes](#testes)
+- [Licença](#licença)
+- [Autor](#autor)
+- [Sugestões de Melhorias Futuras](#sugestões-de-melhorias-futuras)
 
 ---
 
@@ -35,6 +40,8 @@
 > Este repositório reúne soluções comentadas e otimizadas para os desafios da Olimpíada Brasileira de Informática (OBI) Nível 2 - Fase 1 (2025), desenvolvidas em Python. O foco está em clareza, eficiência e boas práticas de programação competitiva.
 
 ✨ **Destaque:** Demonstra habilidades em lógica, simulação, manipulação de listas e otimização, sendo ideal para portfólio e destaque no GitHub.
+
+🔗 Saiba mais sobre a OBI: [olimpiada.ic.unicamp.br](https://olimpiada.ic.unicamp.br)
 
 ---
 
@@ -199,6 +206,16 @@ S
    # ou
    python grafico_barras.py
    ```
+
+---
+
+## ✅ Testes
+
+Para rodar os testes automatizados (em breve):
+
+```bash
+pytest tests/
+```
 
 ---
 
