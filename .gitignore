@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+env/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos PDF
+*.pdf
+
+# Arquivos temporários de portfólio
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar 
