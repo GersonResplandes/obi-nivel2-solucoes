@@ -1,6 +1,8 @@
-<p align="right">
-  <a href="README.md">🇧🇷 Versão em Português</a>
-</p>
+<div align="right">
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/Versão%20em%20Português-🇧🇷-green?style=for-the-badge" alt="Versão em Português"/>
+  </a>
+</div>
 
 # 🏆 OBI Level 2 – Algorithm Challenges
 

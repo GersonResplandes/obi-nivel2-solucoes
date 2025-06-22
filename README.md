@@ -1,6 +1,8 @@
-<p align="right">
-  <a href="README.en.md">🇺🇸 Versão em Inglês</a>
-</p>
+<div align="right">
+  <a href="README.en.md">
+    <img src="https://img.shields.io/badge/English%20Version-🇺🇸-blue?style=for-the-badge" alt="English Version"/>
+  </a>
+</div>
 
 # 🏆 OBI Nível 2 - Soluções
 
