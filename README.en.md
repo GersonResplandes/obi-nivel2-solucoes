@@ -2,16 +2,16 @@
   <a href="README.md">🇧🇷 Versão em Português</a>
 </p>
 
-# 🏆 OBI Level 2 - Solutions
+# 🏆 OBI Level 2 – Algorithm Challenges
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/OBI-Nível%202-2EA44F?style=for-the-badge&logo=codeforces&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Status-Concluído-00C853?style=for-the-badge&logo=check-circle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Complete-00C853?style=for-the-badge&logo=check-circle&logoColor=white"/>
   <br>
-  <img src="https://img.shields.io/badge/Algoritmos-FF6B6B?style=for-the-badge&logo=code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Lógica-4A90E2?style=for-the-badge&logo=braintree&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Competição-FFD700?style=for-the-badge&logo=trophy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Algorithms-FF6B6B?style=for-the-badge&logo=code&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Logic-4A90E2?style=for-the-badge&logo=braintree&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Competition-FFD700?style=for-the-badge&logo=trophy&logoColor=white"/>
 </p>
 
 <div align="center">
@@ -25,10 +25,10 @@
 - [About the Project](#about-the-project)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [Problems & Examples](#problems--examples)
-- [Technical Highlights](#technical-highlights)
-- [How to Run](#how-to-run)
-- [Tests](#tests)
+- [Challenges & Problem Statements](#challenges--problem-statements)
+- [Code Highlights](#code-highlights)
+- [Execution](#execution)
+- [Testing](#testing)
 - [License](#license)
 - [Author](#author)
 - [Suggestions for Future Improvements](#suggestions-for-future-improvements)
@@ -37,9 +37,9 @@
 
 ## 📋 About the Project
 
-> This repository gathers commented and optimized solutions for the challenges of the Brazilian Informatics Olympiad (OBI) Level 2 - Phase 1 (2025), developed in Python. The focus is on clarity, efficiency, and best practices in competitive programming.
+> This repository features well-documented and optimized solutions for the Brazilian Informatics Olympiad (OBI) Level 2 – Phase 1 (2025), implemented in Python. The focus is on clarity, efficiency, and best practices in competitive programming.
 
-✨ **Highlight:** Demonstrates skills in logic, simulation, list manipulation, and optimization, making it ideal for portfolios and GitHub highlights.
+✨ **Highlights:** Demonstrates skills in logic, simulation, data structure manipulation, and algorithmic optimization. Ideal for portfolios and as a GitHub showcase.
 
 🔗 Learn more about OBI: [olimpiada.ic.unicamp.br](https://olimpiada.ic.unicamp.br)
 
@@ -58,25 +58,25 @@
 ```text
 obi-nivel2-solucoes/
 │
-├── 📄 festa_junina.py      # Solution for Problem 1: Festa Junina
-├── 📄 dieta_garfield.py    # Solution for Problem 2: Garfield's Diet
-├── 📄 cafeteria.py         # Solution for Problem 3: Cafeteria
-└── 📄 grafico_barras.py    # Solution for Problem 4: Bar Chart
+├── 📄 festa_junina.py      # Challenge 1: Festa Junina
+├── 📄 dieta_garfield.py    # Challenge 2: Garfield's Diet
+├── 📄 cafeteria.py         # Challenge 3: Cafeteria
+└── 📄 grafico_barras.py    # Challenge 4: Bar Chart
 ```
 
 ---
 
-## 🎯 Problems & Examples
+## 🎯 Challenges & Problem Statements
 
 <details>
-<summary><b>1️⃣ Problem 1 - Festa Junina</b></summary>
+<summary><b>1️⃣ Challenge 1 – Festa Junina</b></summary>
 
-- **Description:** Calculate the minimum total distance Luísa needs to walk to visit the supermarket and the store, in any order, and return to school.
+- **Description:** Calculate the minimum total distance Luísa must walk to visit the supermarket and the store, in any order, and return to school.
 - **Difficulty:** ⭐⭐
 - **Complexity:** O(1)
 - **Solution:** [`festa_junina.py`](festa_junina.py)
 
-**Sample input:**
+**Input example:**
 
 ```text
 10
@@ -84,7 +84,7 @@ obi-nivel2-solucoes/
 13
 ```
 
-**Sample output:**
+**Output example:**
 
 ```text
 16
@@ -93,14 +93,14 @@ obi-nivel2-solucoes/
 </details>
 
 <details>
-<summary><b>2️⃣ Problem 2 - Garfield's Diet</b></summary>
+<summary><b>2️⃣ Challenge 2 – Garfield's Diet</b></summary>
 
-- **Description:** Calculate how many calories Garfield can still consume without exceeding the daily limit, given the meal history.
+- **Description:** Calculate how many calories Garfield can still consume without exceeding the daily limit, given his meal history.
 - **Difficulty:** ⭐⭐⭐
 - **Complexity:** O(N)
 - **Solution:** [`dieta_garfield.py`](dieta_garfield.py)
 
-**Sample input:**
+**Input example:**
 
 ```text
 3 2000
@@ -109,7 +109,7 @@ obi-nivel2-solucoes/
 50 10 35
 ```
 
-**Sample output:**
+**Output example:**
 
 ```text
 655
@@ -118,14 +118,14 @@ obi-nivel2-solucoes/
 </details>
 
 <details>
-<summary><b>3️⃣ Problem 3 - Cafeteria</b></summary>
+<summary><b>3️⃣ Challenge 3 – Cafeteria</b></summary>
 
-- **Description:** Check if it is possible to prepare a drink with the desired amount of milk, given the cup volume and coffee doses.
+- **Description:** Determine if it is possible to prepare a drink with the desired amount of milk, given the cup volume and coffee doses.
 - **Difficulty:** ⭐⭐⭐
 - **Complexity:** O(C/D)
 - **Solution:** [`cafeteria.py`](cafeteria.py)
 
-**Sample input:**
+**Input example:**
 
 ```text
 130
@@ -134,7 +134,7 @@ obi-nivel2-solucoes/
 30
 ```
 
-**Sample output:**
+**Output example:**
 
 ```text
 S
@@ -143,21 +143,21 @@ S
 </details>
 
 <details>
-<summary><b>4️⃣ Problem 4 - Bar Chart</b></summary>
+<summary><b>4️⃣ Challenge 4 – Bar Chart</b></summary>
 
 - **Description:** Generate a text-based bar chart from the popularity of toys.
 - **Difficulty:** ⭐⭐⭐⭐
 - **Complexity:** O(N\*H)
 - **Solution:** [`grafico_barras.py`](grafico_barras.py)
 
-**Sample input:**
+**Input example:**
 
 ```text
 4
 4 2 5 3
 ```
 
-**Sample output:**
+**Output example:**
 
 ```text
 0 0 1 0
@@ -171,16 +171,16 @@ S
 
 ---
 
-## ✨ Technical Highlights
+## ✨ Code Highlights
 
-- ✅ Solving real logic and simulation problems
+- ✅ Real-world logic and simulation challenges
 - ✅ Efficient manipulation of lists and data structures
-- ✅ Well-commented and organized code, following Python best practices
-- ✅ Input/output examples for easy understanding and testing
+- ✅ Well-commented, organized code following Python best practices
+- ✅ Clear input/output examples for easy understanding and testing
 
 ---
 
-## 💻 How to Run
+## 💻 Execution
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"/>
@@ -209,7 +209,7 @@ S
 
 ---
 
-## ✅ Tests
+## 🧪 Testing
 
 To run automated tests (coming soon):
 

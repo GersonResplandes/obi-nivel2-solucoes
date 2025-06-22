@@ -14,9 +14,9 @@
   <img src="https://img.shields.io/badge/Competição-FFD700?style=for-the-badge&logo=trophy&logoColor=white"/>
 </p>
 
-<p align="center">
+<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=2EA44F&center=true&vCenter=true&random=false&width=1000&height=100&lines=Olimpíada+Brasileira+de+Informática;Soluções+Nível+2" alt="Typing SVG" />
-</p>
+</div>
 
 ---
 
